@@ -1,7 +1,7 @@
 {
   "name": "dashboard-financeiro",
   "private": true,
-  "homepage": "https://github.com/DuartDouglas/dashboard-financeiro-pessoal",
+  "homepage": "https://duartdouglas.github.io/dashboard-financeiro-pessoal/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
